@@ -19,12 +19,14 @@ useEffect(() => {
 
   return (
     <>
-      <div className="App">
-        <h1>WhatsApp Clone</h1>
-        <h4>React & Supabase</h4>
-        {session ? <Messages/> : <Login/>}
-  
+      <div className="box">
+        <div className="App">
+          <h1>WhatsApp Clone</h1>
+          <h4>React & Supabase</h4>
+          {session ? <Messages/> : <Login/>}
+        </div>
       </div>
+    
     </>
   )
 }
